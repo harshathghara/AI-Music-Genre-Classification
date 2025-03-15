@@ -1,0 +1,26 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+music_env/
+venv/
+
+# Ignore model files and dataset
+models/
+*.h5
+*.pkl
+
+# Ignore dataset and generated files
+data/genres_original/
+*.csv
+
+# Ignore Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+.DS_Store
